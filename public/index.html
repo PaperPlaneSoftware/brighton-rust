@@ -1,6 +1,72 @@
 <html>
-	<head></head>
+	<head>
+		<title>Brighton Rust</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,700');
+
+			html, body {
+				font-family: 'Montserrat', sans-serif;
+			}
+
+			.flex-container {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
+			.flex-item {
+
+			}
+
+			.title-container {
+				flex-grow: 1;
+				font-size: 2rem;
+			}
+
+			.logo  {
+				margin-right: 0.75rem;
+			}
+
+			.title {
+				font-weight: 700;
+			}
+
+			.strapline {
+				display: inline-block;
+				font-weight: 100;
+			}
+
+			.logo-container {
+				/* text-align: center; */
+			}
+		</style>
+	</head>
 	<body>
-		Brighton Rust User Group
+		<header class="flex-container">
+			<div class="logo-container flex-item">
+				<img class="logo" src="logo.svg" height="100px">
+			</div>
+			<div class="title-container flex-item">
+				<span class="title">Brighton Rust:</span>
+				<span class="strapline">Fortnightly hacking in Rust</span>
+			</div>
+			<div class="social flex-item">
+				<a>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm5.336 12.105l-1.216.405.421 1.258c.165.509-.105 1.063-.615 1.228-.575.162-1.074-.161-1.232-.613l-.42-1.259-2.506.838.42 1.259c.195.601-.217 1.271-.916 1.271-.44 0-.8-.282-.93-.657l-.421-1.258-1.215.404c-.568.164-1.073-.158-1.232-.614-.164-.509.106-1.064.616-1.228l1.216-.405-.811-2.411-1.216.404c-.677.192-1.279-.295-1.279-.92 0-.408.255-.791.664-.923l1.216-.404-.421-1.258c-.165-.51.106-1.064.616-1.229.51-.164 1.065.105 1.231.615l.421 1.257 2.505-.838-.419-1.259c-.202-.619.242-1.276.921-1.276.41 0 .793.254.925.663l.421 1.258 1.215-.405c.51-.165 1.066.106 1.231.615.166.509-.105 1.063-.615 1.228l-1.217.404.811 2.412 1.217-.405c.621-.2 1.278.242 1.278.919 0 .41-.255.792-.664.924zm-4.496-3.214l-2.505.837.81 2.414 2.505-.837-.81-2.414z"></path></svg>
+				</a>
+				<a>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"></path></svg>
+				</a>
+			</div>
+		</header>
+		<hr>
+		<section>
+			<p>We meet at every other Friday at The Skiff in Brighton from 4pm to 5pm. Come and join us. It's free!</p>
+			<h3>What to expect:</h3>
+			<p>Learning rust by coding around a shared monitor.</p>
+			<p>Occasionally we host talks, and show-and-tells.</p>
+			<p>If you have anything you'd like to show us, get in touch!</p>
+		</section>
 	</body>
 </html>
